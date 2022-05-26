@@ -14,9 +14,13 @@
 }
 
 .nav-item:hover {
-    font: 1em sans-serif;
+    font: 1rem sans-serif;
 }
 
 .p {
     color: aqua;
+}
+
+* {
+    font: 1rem sans-serif;
 }

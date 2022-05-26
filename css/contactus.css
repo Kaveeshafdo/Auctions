@@ -4,18 +4,16 @@
     justify-content: space-between;
 }
 
+.contactus {}
+
 .part2 {
-    width: 40%;
-    margin-top: 5rem;
-    background-color: #d9d9d9ff;
+    width: 45%;
     padding: 20px;
     border-radius: 15px;
 }
 
 .part1 {
     width: 50%;
-    margin-top: 5rem;
-    background-color: #d9d9d9ff;
     padding: 20px;
     border-radius: 15px;
 }
@@ -52,14 +50,13 @@ i {
     .part1,
     .part2 {
         width: 100%;
-        margin-top: 5rem;
         background-color: #d9d9d9ff;
         padding: 20px;
         border-radius: 15px;
     }
     iframe {
-        height: 600px;
-        width: 600px;
+        height: 500px;
+        width: 500px;
     }
 }
 
