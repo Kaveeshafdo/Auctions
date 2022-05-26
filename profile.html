@@ -8,12 +8,10 @@
     <title>Profile</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/9d5313112d.js" crossorigin="anonymous"></script>
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet" />
@@ -47,7 +45,7 @@
             -moz-user-select: none;
             user-select: none;
         }
-
+        
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
@@ -60,7 +58,7 @@
             overflow-x: hidden;
             margin: 0;
         }
-
+        
         .sidenav {
             position: relative;
             height: 100%;
@@ -73,7 +71,7 @@
             overflow-x: hidden;
             padding-top: 20px;
         }
-
+        
         .sidenav a {
             padding: 6px 8px 6px 16px;
             text-decoration: none;
@@ -82,11 +80,11 @@
             display: block;
             border-bottom: 1px solid gray;
         }
-
+        
         .sidenav a:hover {
             color: #f1f1f1;
         }
-
+        
         .main {
             margin-left: 160px;
             /* Same as the width of the sidenav */
@@ -94,56 +92,50 @@
             /* Increased text to enable scrolling */
             padding: 0px 10px;
         }
-
+        
         header {
             color: white;
         }
-
+        
         @media screen and (max-height: 700px) {
             .sidenav {
                 padding-top: 15px;
             }
-
             .sidenav a {
                 font-size: 18px;
             }
-
             .main_header {
                 margin-bottom: 2rem;
                 display: flex;
                 flex-direction: column;
             }
-
             .header {
                 margin-bottom: 2rem;
             }
-
             .footer {
                 margin-top: 30rem;
             }
-
             .contactus {
                 margin-top: -10rem;
             }
-
             .img img {
                 width: 60%;
             }
         }
-
+        
         @media screen and (max-height: 500px) {
             .main_header {
                 display: flex;
                 flex-direction: column;
             }
         }
-
+        
         .side_header {}
-
+        
         .main_header {
             width: 100%;
         }
-
+        
         .container_header {
             margin: 0;
         }
@@ -160,7 +152,7 @@
                 <div class="container_header" style="text-align: center;">
                     <div class="header">
                         <div class="d-flex flex-wrap align-items-center justify-content-center ">
-                            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                                 <img class="logo" src="images/_Bunz+logo+black+Copy.png" alt="" />
                             </a>
 
@@ -170,8 +162,7 @@
                                         <div class="inner-form">
                                             <div class="input-field first-wrap">
                                                 <div class="input-select">
-                                                    <select class="form-select" aria-label="Default select example"
-                                                        style="border: none">
+                                                    <select class="form-select" aria-label="Default select example" style="border: none">
                                                         <option selected>Category</option>
                                                         <option value="1">Books</option>
                                                         <option value="2">Pencils</option>
@@ -198,23 +189,20 @@
                                 </div>
                             </div>
                             <div class="text-end">
-                                <button type="button" class="btn me-3 login">Login</button>
-                                <button type="button" class="btn me-3 signup">Sign-up</button>
-                                <button type="button" class="btn user" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">
+                                <a href="login.html"><button type="button" class="btn me-3 login">Login</button></a>
+                                <a href="register.html"><button type="button" class="btn me-3 signup">Sign-up</button></a>
+                                <button type="button" class="btn user" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <i class="fa-solid fa-user"></i>
                                 </button>
 
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLabel">Hii User</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="b">
                                                 <a href="profile.html"><button type="button a" class="btn btn-secondary"
@@ -242,7 +230,7 @@
                             <div class=" navbar-collapse" id="navbarTogglerDemo03">
                                 <ul class="navbar-nav me-auto mb-3 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="settings.html">Service</a>
@@ -277,9 +265,7 @@
                         <h3 style="color:black ;">
                             @email address
                         </h3>
-                        <p style="color:black ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloribus
-                            totam placeat, rem commodi ducimus eaque architecto similique<br> enim voluptatem asperiores
-                            iusto. Facere quas ratione doloribus unde. Architecto, aspernatur
+                        <p style="color:black ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloribus totam placeat, rem commodi ducimus eaque architecto similique<br> enim voluptatem asperiores iusto. Facere quas ratione doloribus unde. Architecto, aspernatur
                             blanditiis?
                         </p>
                         <button class="btns">Edit Profile</button>
@@ -334,12 +320,12 @@
                                         <h3 class="text-dark ">Let's get started!</h3>
                                     </div>
                                     <div class="ml-auto ">
-                                        <a href="# " class="btn btn-dark rounded-0 py-3 px-5 ">Contact us</a>
+                                        <a href="contactus.html" class="btn btn-dark rounded-0 py-3 px-5 ">Contact us</a>
                                     </div>
                                 </div>
                                 <div class="row ">
                                     <div class="col-sm ">
-                                        <a href="# " class="footer-logo ">Bunz</a>
+                                        <a href="index.html" class="footer-logo ">Bunz</a>
                                         <p class="copyright ">
                                             <small>&copy; 2022</small>
                                         </p>
@@ -354,9 +340,9 @@
                                     <div class="col-sm ">
                                         <h3>Company</h3>
                                         <ul class="list-unstyled links ">
-                                            <li><a href="# ">About us</a></li>
+                                            <li><a href="aboutus.html">About us</a></li>
 
-                                            <li><a href="# ">Contact us</a></li>
+                                            <li><a href="contactus.html">Contact us</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm ">
@@ -407,16 +393,12 @@
         </script>
         <script src="https://kit.fontawesome.com/9d5313112d.js" crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
-            crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
         <script src="https://kit.fontawesome.com/9d5313112d.js" crossorigin="anonymous"></script>
 
         <script src="https://kit.fontawesome.com/9d5313112d.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js "></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
         <script src="https://kit.fontawesome.com/9d5313112d.js " crossorigin="anonymous "></script>
 </body>
